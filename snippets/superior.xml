@@ -11,6 +11,10 @@
           fetch="https://github.com/SuperiorOS/"
           revision="refs/heads/thirteen" />
 
+  <remote name="beta"
+          fetch="https://github.com/SuperiorOS-beta/"
+          revision="refs/heads/thirteen" />
+
   <remote name="superior-gitlab"
           fetch="https://gitlab.com/superioros"
           revision="refs/heads/thirteen" />
@@ -35,7 +39,7 @@
   </project>
 
   <project path="bionic" name="android_bionic" groups="pdk" remote="superior" />
-  <project path="manifest" name="manifest" remote="superior" />
+  <project path="manifest" name="manifest" remote="beta" />
 
   <!-- Bootable repos -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="superior" />
@@ -65,8 +69,8 @@
   <project path="external/tinyxml" name="android_external_tinyxml" remote="superior" />
 
   <!-- Framework repos -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="superior" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="superior" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="beta" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="beta" />
   <project path="frameworks/native" name="android_frameworks_native" remote="superior" />
   <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="superior" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="superior" />
