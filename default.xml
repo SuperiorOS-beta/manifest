@@ -1411,4 +1411,7 @@
   </project>
   <!-- END open-source projects -->
 
+  <include name="snippets/remove.xml" />
+  <include name="snippets/superior.xml" />
+  <include name="snippets/lineage.xml" />
 </manifest>
